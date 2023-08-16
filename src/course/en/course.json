@@ -6,7 +6,7 @@
   "description": "",
   "instruction": "",
   "_htmlClasses": "",
-  "_latestTrackingId": 3,
+  "_latestTrackingId": 6,
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",
@@ -37,8 +37,14 @@
   "_lockType": "",
   "_id": "course",
   "_start": {
-    "_isEnabled": false,
-    "_startIds": [],
+    "_isEnabled": true,
+    "_startIds": [
+      {
+        "_id": "64dce0386e8ec6d405dc8fa3",
+        "_skipIfComplete": false,
+        "_className": ""
+      }
+    ],
     "_force": false,
     "_isMenuDisabled": false
   },
@@ -69,6 +75,9 @@
       }
     },
     "_extensions": {
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
       "_tutor": {
         "hideFeedback": "Hide feedback"
       },
@@ -99,9 +108,6 @@
       "_ODILicence": {
         "linkText": "Licence",
         "titleText": "Licence"
-      },
-      "_trickle": {
-        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
       },
       "_courseNotes": {
         "buttonNav": "Course notes"
@@ -206,11 +212,11 @@
       "_textinputAI": {
         "ariaRegion": "<p>Text input. Type your answer and then submit.</p>"
       },
-      "_dnd-multiple": {
-        "ariaRegion": "Drag and drop. Drag the items and then submit."
-      },
       "_trialogue": {
         "ariaRegion": ""
+      },
+      "_dnd-multiple": {
+        "ariaRegion": "Drag and drop. Drag the items and then submit."
       }
     },
     "_menu": {
@@ -220,6 +226,159 @@
     }
   },
   "_type": "course",
+  "themeVariables": {
+    "_global": {
+      "max-width": "1400px",
+      "device-width-small": "520px",
+      "device-width-medium": "520px",
+      "device-width-large": "900px",
+      "title-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "body-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "btn-family": "'Open Sans', Helvetica, Arial, sans-serif",
+      "font-color": "#4d4d4d",
+      "font-color-inverted": "#ffffff",
+      "link": "",
+      "link-inverted": "",
+      "link-hover": "",
+      "link-inverted-hover": ""
+    },
+    "_themeLogo": {
+      "theme-logo-top-padding": "0rem",
+      "theme-logo-width": "100%"
+    },
+    "_colors": {
+      "color-one": "#2f529f",
+      "color-one-inverted": "#ffffff",
+      "color-two": "#666666",
+      "color-two-inverted": "#ffffff",
+      "color-three": "#7d82be",
+      "color-three-inverted": "#ffffff",
+      "color-four": "#ff9000",
+      "color-four-inverted": "#ffffff",
+      "color-five": "#de4a8d",
+      "color-five-inverted": "#ffffff",
+      "color-six": "#ff6600",
+      "color-six-inverted": "#ffffff",
+      "color-seven": "#333666",
+      "color-seven-inverted": "#ffffff",
+      "color-eight": "#006699",
+      "color-eight-inverted": "#ffffff",
+      "color-nine": "#006633",
+      "color-nine-inverted": "#ffffff",
+      "color-ten": "#000000",
+      "color-ten-inverted": "#ffffff"
+    },
+    "_items": {
+      "item-color": "#2f529f",
+      "item-color-inverted": "#ffffff",
+      "item-color-hover": "",
+      "item-color-inverted-hover": "",
+      "item-color-selected": "",
+      "item-color-inverted-selected": "",
+      "visited": "#727272",
+      "visited-inverted": "#ffffff"
+    },
+    "_buttons": {
+      "btn-color": "#4d4d4d",
+      "btn-color-inverted": "#ffffff",
+      "btn-color-hover": "",
+      "btn-color-inverted-hover": "",
+      "disabled": "#dddddd",
+      "disabled-inverted": "#000000"
+    },
+    "_validation": {
+      "validation-success": "#065f28",
+      "validation-success-inverted": "#ffffff",
+      "validation-error": "#ff0000",
+      "validation-error-inverted": "#ffffff"
+    },
+    "_progress": {
+      "progress": "#9096a0",
+      "progress-inverted": "#ffffff",
+      "progress-border": "#9096a0"
+    },
+    "_menu": {
+      "menu-item": "",
+      "menu-item-inverted": "",
+      "menu-item-border-color": "",
+      "menu-item-progress": "",
+      "menu-item-progress-inverted": "",
+      "menu-item-progress-border": "",
+      "menu-item-btn-color": "",
+      "menu-item-btn-color-inverted": "",
+      "menu-item-btn-color-hover": "",
+      "menu-item-btn-color-inverted-hover": ""
+    },
+    "_nav": {
+      "nav": "#000000",
+      "nav-inverted": "#ffffff",
+      "hide-nav": false,
+      "nav-icon": "#000000",
+      "nav-icon-inverted": "#ffffff",
+      "nav-icon-hover": "#000000",
+      "nav-icon-inverted-hover": "#ffffff",
+      "navigation-logo": "",
+      "nav-logo-height": "60px",
+      "nav-logo-height-mobile": "50px",
+      "nav-logo-padding-top": "5px",
+      "nav-logo-padding-top-mobile": "3px",
+      "nav-logo-padding-left": "5px",
+      "nav-logo-padding-left-mobile": "3px",
+      "nav-progress": "",
+      "nav-progress-inverted": "",
+      "nav-progress-border": "",
+      "nav-progress-hover": "",
+      "nav-progress-inverted-hover": "",
+      "nav-progress-border-hover": ""
+    },
+    "_footer": {
+      "footer": "#000000",
+      "footer-inverted": "#ffffff",
+      "footer-logo": "course/assets/b46255d149de4ce358f32a2812df4c9b0658f1a8.png"
+    },
+    "_notify": {
+      "notify": "#36cde8",
+      "notify-inverted": "#ffffff",
+      "notify-link": "",
+      "notify-link-hover": "",
+      "notify-btn": "",
+      "notify-btn-inverted": "",
+      "notify-btn-hover": "",
+      "notify-btn-inverted-hover": "",
+      "notify-icon": "",
+      "notify-icon-inverted": "",
+      "notify-icon-hover": "",
+      "notify-icon-inverted-hover": ""
+    },
+    "_drawer": {
+      "drawer": "#263944",
+      "drawer-inverted": "#ffffff",
+      "drawer-link": "",
+      "drawer-link-hover": "",
+      "drawer-icon": "",
+      "drawer-icon-inverted": "",
+      "drawer-icon-hover": "",
+      "drawer-icon-inverted-hover": "",
+      "drawer-item": "",
+      "drawer-item-inverted": "",
+      "drawer-item-hover": "",
+      "drawer-item-inverted-hover": "",
+      "drawer-item-selected": "",
+      "drawer-item-inverted-selected": "",
+      "drawer-progress": "",
+      "drawer-progress-inverted": "",
+      "drawer-progress-border": "",
+      "drawer-progress-hover": "",
+      "drawer-progress-inverted-hover": "",
+      "drawer-progress-border-hover": ""
+    },
+    "_misc": {
+      "background": "#000000",
+      "background-inverted": "#ffffff",
+      "shadow": "#000000",
+      "shadow-inverted": "#ffffff"
+    }
+  },
   "_assessment": {
     "_isPercentageBased": true,
     "_scoreToPass": 60,

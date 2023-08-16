@@ -1,7 +1,7 @@
 [
   {
-    "title": "New Menu/Page Title",
-    "displayTitle": "New Menu/Page Title",
+    "title": "Consequence Scanning Activity",
+    "displayTitle": "Consequence Scanning Activity",
     "body": "",
     "_classes": "",
     "subtitle": "",
@@ -18,14 +18,28 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "64d4e1b8f9d25d6470477043",
+    "_id": "64dce0386e8ec6d405dc8fa3",
     "_type": "page",
     "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true,
       "_isCompletionIndicatorEnabled": false,
       "_excludeAssessments": false
+    },
+    "_aboutPage": {
+      "aboutCredit": "",
+      "SL_text": "",
+      "_items": []
     },
     "_ODILicence": {
       "_items": []
@@ -33,10 +47,37 @@
     "_FooterLink": {
       "_items": []
     },
-    "_aboutPage": {
-      "aboutCredit": "",
-      "SL_text": "",
-      "_items": []
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_odi-theme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": null,
+        "_backgroundSize": null,
+        "_backgroundPosition": null
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": null,
+          "_backgroundSize": null,
+          "_backgroundPosition": null
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
     }
   }
 ]
