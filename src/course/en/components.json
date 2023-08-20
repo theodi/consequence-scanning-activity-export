@@ -202,10 +202,10 @@
       }
     ],
     "_feedback": {
-      "title": "",
-      "correct": "",
+      "title": "Take a look below at our sample answers.",
+      "correct": "<p>Certainly, here&#39;s a concise list of possible consequences for the given case study:</p> <p><strong>Consequences to be Mitigated:</strong></p> <ul> <li>Ethical dilemmas: AI choosing between passenger and pedestrian safety raises moral concerns.</li> <li>Public trust: Controversial decisions might reduce trust in autonomous vehicles.</li> <li>Legal complexities: Accidents could lead to complex legal and liability issues.</li> <li>Bias perception: Decisions favoring one group could lead to bias perception concerns.</li> </ul> <p><strong>Positive Consequences:</strong></p> <ul> <li>Reduced accidents: AI-driven decisions could significantly decrease human error accidents.</li> <li>Traffic flow: Communication between autonomous vehicles could ease traffic congestion.</li> <li>Accessibility: Non-drivers gain mobility and independence with self-driving cars.</li> <li>Environmental impact: Efficient routing could lead to reduced emissions.</li> </ul>",
       "_incorrect": {
-        "final": "",
+        "final": "<p>Certainly, here&#39;s a concise list of possible consequences for the given case study:</p> <p><strong>Consequences to be Mitigated:</strong></p> <ul> <li>Ethical dilemmas: AI choosing between passenger and pedestrian safety raises moral concerns.</li> <li>Public trust: Controversial decisions might reduce trust in autonomous vehicles.</li> <li>Legal complexities: Accidents could lead to complex legal and liability issues.</li> <li>Bias perception: Decisions favoring one group could lead to bias perception concerns.</li> </ul> <p><strong>Positive Consequences:</strong></p> <ul> <li>Reduced accidents: AI-driven decisions could significantly decrease human error accidents.</li> <li>Traffic flow: Communication between autonomous vehicles could ease traffic congestion.</li> <li>Accessibility: Non-drivers gain mobility and independence with self-driving cars.</li> <li>Environmental impact: Efficient routing could lead to reduced emissions.</li> </ul>",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -248,8 +248,8 @@
     "_isResetOnRevisit": "false",
     "_ariaLevel": 0,
     "_disableAccessibilityState": false,
-    "title": " Reading and Reflecting",
-    "displayTitle": " Reading and Reflecting",
+    "title": "Reading and Reflecting",
+    "displayTitle": "Reading and Reflecting",
     "body": "<p>Now that you understand the case study, it's time to <strong>identify consequences</strong>. In the provided text box, create a bullet-pointed list of both positive and negative outcomes related to the actions in the scenario.</p>",
     "_id": "64dce0386e8ec6d405dc8faa",
     "_parentId": "64dce0386e8ec6d405dc8fa6",
@@ -364,7 +364,7 @@
   },
   {
     "_component": "graphic",
-    "_classes": "intro logo intro-logo",
+    "_classes": "intro-logo",
     "_isOptional": false,
     "_isAvailable": true,
     "_isHidden": false,
