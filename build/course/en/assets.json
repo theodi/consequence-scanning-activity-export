@@ -1,1 +1,21 @@
-{"ed8c41138dc38e9d42c4c464ef200a62b430716e.png":{"title":"ODI Learning Roundal Green-Blue","description":"Main ODI logo","tags":[{"title":"intro logo","_id":"6479ba3a5ed97702e3e265fd"},{"title":"ODI logo","_id":"6479ba3a5ed97702e3e265fe"}]},"8069d2a4618084e967165ac7f06b4750e01098da.png":{"title":"Summary clipboard white","description":"Summary clipboard white","tags":[]}}
+{
+  "ed8c41138dc38e9d42c4c464ef200a62b430716e.png": {
+    "title": "ODI Learning Roundal Green-Blue",
+    "description": "Main ODI logo",
+    "tags": [
+      {
+        "title": "intro logo",
+        "_id": "6479ba3a5ed97702e3e265fd"
+      },
+      {
+        "title": "ODI logo",
+        "_id": "6479ba3a5ed97702e3e265fe"
+      }
+    ]
+  },
+  "8069d2a4618084e967165ac7f06b4750e01098da.png": {
+    "title": "Summary clipboard white",
+    "description": "Summary clipboard white",
+    "tags": []
+  }
+}
